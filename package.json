@@ -1,0 +1,63 @@
+{
+  "name": "skillvipe",
+  "version": "0.1.0",
+  "description": "One terminal UI to list, disable, re-enable, remove and clean up MCP servers, skills and plugins across Claude Code, Codex, OpenCode, Pi, Muse Code and Antigravity CLI.",
+  "author": "kamaravichow",
+  "homepage": "https://github.com/kamaravichow/skillvipe#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaravichow/skillvipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamaravichow/skillvipe/issues"
+  },
+  "type": "module",
+  "bin": {
+    "skillvipe": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "cli",
+    "codex",
+    "coding-agent",
+    "ink",
+    "mcp",
+    "model-context-protocol",
+    "muse-code",
+    "opencode",
+    "pi",
+    "plugins",
+    "skills",
+    "tui"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ink": "^8.0.0",
+    "jsonc-parser": "^3.3.1",
+    "react": "^19.3.1",
+    "smol-toml": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
