@@ -4,6 +4,9 @@
 [![node](https://img.shields.io/node/v/skillvipe.svg)](https://nodejs.org)
 [![license](https://img.shields.io/npm/l/skillvipe.svg)](LICENSE)
 
+<img width="1392" height="912" alt="Terminal skillvibe" src="https://github.com/user-attachments/assets/130fa7c1-58ee-46e3-b6bd-68c789d5c72e" />
+
+
 **One terminal UI for every MCP server, skill and plugin your coding agents load.**
 
 skillvipe lists all of them in one place, lets you switch any of them off for a while, removes the ones you don't want, and finds the broken ones.
